@@ -191,3 +191,28 @@ Test result:
 Failed test:
 
 ![Test Failed](failed-test.png)
+
+This proves that the assertion works properly.
+
+<br>
+
+### Understand test flow
+
+- **Feature Description** <br> The feature file describes the scenario of establishing an environment and ensuring it functions correctly.
+
+- **Scenario** <br> The scenario outlines the steps to verify that adding monkeys to the environment works as expected.
+
+- **Given Step** <br> Sets up the initial state by specifying the number of monkeys in the environment.
+  When Step: Specifies the action of adding more monkeys to the environment.
+
+- **Then Step** <br> Asserts that the final state of the environment matches the expected number of monkeys.
+
+<br>
+
+### What does this test tell us?
+
+- The test scenario executes successfully, indicating that the environment setup and monkey addition functionalities are working as expected.
+- The assertion in the "Then" step correctly verifies whether the number of monkeys matches the expected count.
+- Changing the expected count in the assertion to see if the test fails demonstrates the test's ability to catch discrepancies.
+
+> In summary, this smoke test effectively verifies the basic functionality of managing monkeys in the environment, providing confidence that the system is functioning as intended.
