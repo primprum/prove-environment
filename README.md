@@ -216,3 +216,9 @@ This proves that the assertion works properly.
 - Changing the expected count in the assertion to see if the test fails demonstrates the test's ability to catch discrepancies.
 
 > In summary, this smoke test effectively verifies the basic functionality of managing monkeys in the environment, providing confidence that the system is functioning as intended.
+
+<br>
+
+### Test demo
+
+[![Test Demo](https://img.youtube.com/vi/W9HFlJcge8g/maxresdefault.jpg)](https://www.youtube.com/embed/W9HFlJcge8g)
